@@ -107,3 +107,26 @@ sources:
           - *buy_gem
           - *take_amt
           - *give_amt
+
+      - name: RubiconMarket_evt_LogKill
+      contract_address
+      evt_tx_hash
+      evt_index
+      evt_block_time
+      evt_block_number
+      buy_amt
+      buy_gem
+      id
+      maker
+      pair
+      pay_amt
+      pay_gem
+      timestamp
+
+      - name: RubiconMarket_evt_OfferDeleted
+      contract_address
+      evt_tx_hash
+      evt_index
+      evt_block_time
+      evt_block_number
+      id

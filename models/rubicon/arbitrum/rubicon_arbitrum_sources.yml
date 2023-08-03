@@ -69,3 +69,29 @@ sources:
           - &give_amt
             name: give_amt
             description: "the amount of the token that the taker payed with"
+      
+      - name: RubiconMarket_evt_emitCancel
+        loaded_at_field: evt_block_time
+        description: "a table of events triggered when an outstanding offer is cancelled"
+      contract_address, 
+      evt_tx_hash, 
+      evt_index
+      evt_block_time
+      evt_block_number
+      buy_amt
+      buy_gem
+      id
+      maker
+      pair
+      pay_amt
+      pay_gem
+
+      - name: RubiconMarket_evt_emitDelete
+      contract_address
+      evt_tx_hash
+      evt_index
+      evt_block_time
+      evt_block_number
+      id
+      maker
+      pair

@@ -154,6 +154,18 @@ models:
       - &bought_amount_usd
         name: bought_amount_usd
         description: "the amount of the token that the offer has bought in USD (summed bassed on the price at the time of each trade (if any))"  
+      - &offer_status
+        name: offer_status
+        description: "the status of the offer (true if the offer is active, false if the offer is inactive)"
+      - &close_block_number
+        name: close_block_number
+        description: "the block number of the block that the offer was closed in"
+      - &close_tx_index
+        name: close_tx_index
+        description: "the transaction index of the transaction that the offer was closed in"
+      - &close_evt_index
+        name: close_evt_index
+        description: "the event index within the transaction that the offer was closed in"
       - &txn_cost_usd
         name: txn_cost_usd
         description: "the cost of the transaction in USD"
